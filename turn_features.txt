@@ -1,0 +1,2617 @@
+deoxys-attack
+deoxys-defense
+deoxys-speed
+wormadam-sandy
+wormadam-trash
+shaymin-sky
+giratina-origin
+rotom-heat
+rotom-wash
+rotom-frost
+rotom-fan
+rotom-mow
+castform-sunny
+castform-rainy
+castform-snowy
+basculin-blue-striped
+darmanitan-zen
+meloetta-pirouette
+tornadus-therian
+thundurus-therian
+landorus-therian
+kyurem-black
+kyurem-white
+keldeo-resolute
+meowstic-female
+aegislash-blade
+pumpkaboo-small
+pumpkaboo-large
+pumpkaboo-super
+gourgeist-small
+gourgeist-large
+gourgeist-super
+venusaur-mega
+charizard-mega-x
+charizard-mega-y
+blastoise-mega
+alakazam-mega
+gengar-mega
+kangaskhan-mega
+pinsir-mega
+gyarados-mega
+aerodactyl-mega
+mewtwo-mega-x
+mewtwo-mega-y
+ampharos-mega
+scizor-mega
+heracross-mega
+houndoom-mega
+tyranitar-mega
+blaziken-mega
+gardevoir-mega
+mawile-mega
+aggron-mega
+medicham-mega
+manectric-mega
+banette-mega
+absol-mega
+garchomp-mega
+lucario-mega
+abomasnow-mega
+floette-eternal
+latias-mega
+latios-mega
+swampert-mega
+sceptile-mega
+sableye-mega
+altaria-mega
+gallade-mega
+audino-mega
+sharpedo-mega
+slowbro-mega
+steelix-mega
+pidgeot-mega
+glalie-mega
+diancie-mega
+metagross-mega
+kyogre-primal
+groudon-primal
+rayquaza-mega
+pikachu-rock-star
+pikachu-belle
+pikachu-pop-star
+pikachu-phd
+pikachu-libre
+pikachu-cosplay
+hoopa-unbound
+camerupt-mega
+lopunny-mega
+salamence-mega
+beedrill-mega
+rattata-alola
+raticate-alola
+raticate-totem-alola
+pikachu-original-cap
+pikachu-hoenn-cap
+pikachu-sinnoh-cap
+pikachu-unova-cap
+pikachu-kalos-cap
+pikachu-alola-cap
+raichu-alola
+sandshrew-alola
+sandslash-alola
+vulpix-alola
+ninetales-alola
+diglett-alola
+dugtrio-alola
+meowth-alola
+persian-alola
+geodude-alola
+graveler-alola
+golem-alola
+grimer-alola
+muk-alola
+exeggutor-alola
+marowak-alola
+greninja-battle-bond
+greninja-ash
+zygarde-10
+zygarde-50
+zygarde-complete
+gumshoos-totem
+vikavolt-totem
+oricorio-pom-pom
+oricorio-pau
+oricorio-sensu
+lycanroc-midnight
+wishiwashi-school
+lurantis-totem
+salazzle-totem
+minior-orange-meteor
+minior-yellow-meteor
+minior-green-meteor
+minior-blue-meteor
+minior-indigo-meteor
+minior-violet-meteor
+minior-red
+minior-orange
+minior-yellow
+minior-green
+minior-blue
+minior-indigo
+minior-violet
+mimikyu-busted
+mimikyu-totem-disguised
+mimikyu-totem-busted
+kommo-o-totem
+magearna-original
+pikachu-partner-cap
+marowak-totem
+ribombee-totem
+rockruff-own-tempo
+lycanroc-dusk
+araquanid-totem
+togedemaru-totem
+necrozma-dusk
+necrozma-dawn
+necrozma-ultra
+bulbasaur
+ivysaur
+venusaur
+charmander
+charmeleon
+charizard
+squirtle
+wartortle
+blastoise
+caterpie
+metapod
+butterfree
+weedle
+kakuna
+beedrill
+pidgey
+pidgeotto
+pidgeot
+rattata
+raticate
+spearow
+fearow
+ekans
+arbok
+pikachu
+raichu
+sandshrew
+sandslash
+nidoran-f
+nidorina
+nidoqueen
+nidoran-m
+nidorino
+nidoking
+clefairy
+clefable
+vulpix
+ninetales
+jigglypuff
+wigglytuff
+zubat
+golbat
+oddish
+gloom
+vileplume
+paras
+parasect
+venonat
+venomoth
+diglett
+dugtrio
+meowth
+persian
+psyduck
+golduck
+mankey
+primeape
+growlithe
+arcanine
+poliwag
+poliwhirl
+poliwrath
+abra
+kadabra
+alakazam
+machop
+machoke
+machamp
+bellsprout
+weepinbell
+victreebel
+tentacool
+tentacruel
+geodude
+graveler
+golem
+ponyta
+rapidash
+slowpoke
+slowbro
+magnemite
+magneton
+farfetchd
+doduo
+dodrio
+seel
+dewgong
+grimer
+muk
+shellder
+cloyster
+gastly
+haunter
+gengar
+onix
+drowzee
+hypno
+krabby
+kingler
+voltorb
+electrode
+exeggcute
+exeggutor
+cubone
+marowak
+hitmonlee
+hitmonchan
+lickitung
+koffing
+weezing
+rhyhorn
+rhydon
+chansey
+tangela
+kangaskhan
+horsea
+seadra
+goldeen
+seaking
+staryu
+starmie
+mr-mime
+scyther
+jynx
+electabuzz
+magmar
+pinsir
+tauros
+magikarp
+gyarados
+lapras
+ditto
+eevee
+vaporeon
+jolteon
+flareon
+porygon
+omanyte
+omastar
+kabuto
+kabutops
+aerodactyl
+snorlax
+articuno
+zapdos
+moltres
+dratini
+dragonair
+dragonite
+mewtwo
+mew
+chikorita
+bayleef
+meganium
+cyndaquil
+quilava
+typhlosion
+totodile
+croconaw
+feraligatr
+sentret
+furret
+hoothoot
+noctowl
+ledyba
+ledian
+spinarak
+ariados
+crobat
+chinchou
+lanturn
+pichu
+cleffa
+igglybuff
+togepi
+togetic
+natu
+xatu
+mareep
+flaaffy
+ampharos
+bellossom
+marill
+azumarill
+sudowoodo
+politoed
+hoppip
+skiploom
+jumpluff
+aipom
+sunkern
+sunflora
+yanma
+wooper
+quagsire
+espeon
+umbreon
+murkrow
+slowking
+misdreavus
+unown
+wobbuffet
+girafarig
+pineco
+forretress
+dunsparce
+gligar
+steelix
+snubbull
+granbull
+qwilfish
+scizor
+shuckle
+heracross
+sneasel
+teddiursa
+ursaring
+slugma
+magcargo
+swinub
+piloswine
+corsola
+remoraid
+octillery
+delibird
+mantine
+skarmory
+houndour
+houndoom
+kingdra
+phanpy
+donphan
+porygon2
+stantler
+smeargle
+tyrogue
+hitmontop
+smoochum
+elekid
+magby
+miltank
+blissey
+raikou
+entei
+suicune
+larvitar
+pupitar
+tyranitar
+lugia
+ho-oh
+celebi
+treecko
+grovyle
+sceptile
+torchic
+combusken
+blaziken
+mudkip
+marshtomp
+swampert
+poochyena
+mightyena
+zigzagoon
+linoone
+wurmple
+silcoon
+beautifly
+cascoon
+dustox
+lotad
+lombre
+ludicolo
+seedot
+nuzleaf
+shiftry
+taillow
+swellow
+wingull
+pelipper
+ralts
+kirlia
+gardevoir
+surskit
+masquerain
+shroomish
+breloom
+slakoth
+vigoroth
+slaking
+nincada
+ninjask
+shedinja
+whismur
+loudred
+exploud
+makuhita
+hariyama
+azurill
+nosepass
+skitty
+delcatty
+sableye
+mawile
+aron
+lairon
+aggron
+meditite
+medicham
+electrike
+manectric
+plusle
+minun
+volbeat
+illumise
+roselia
+gulpin
+swalot
+carvanha
+sharpedo
+wailmer
+wailord
+numel
+camerupt
+torkoal
+spoink
+grumpig
+spinda
+trapinch
+vibrava
+flygon
+cacnea
+cacturne
+swablu
+altaria
+zangoose
+seviper
+lunatone
+solrock
+barboach
+whiscash
+corphish
+crawdaunt
+baltoy
+claydol
+lileep
+cradily
+anorith
+armaldo
+feebas
+milotic
+castform
+kecleon
+shuppet
+banette
+duskull
+dusclops
+tropius
+chimecho
+absol
+wynaut
+snorunt
+glalie
+spheal
+sealeo
+walrein
+clamperl
+huntail
+gorebyss
+relicanth
+luvdisc
+bagon
+shelgon
+salamence
+beldum
+metang
+metagross
+regirock
+regice
+registeel
+latias
+latios
+kyogre
+groudon
+rayquaza
+jirachi
+deoxys-normal
+turtwig
+grotle
+torterra
+chimchar
+monferno
+infernape
+piplup
+prinplup
+empoleon
+starly
+staravia
+staraptor
+bidoof
+bibarel
+kricketot
+kricketune
+shinx
+luxio
+luxray
+budew
+roserade
+cranidos
+rampardos
+shieldon
+bastiodon
+burmy
+wormadam-plant
+mothim
+combee
+vespiquen
+pachirisu
+buizel
+floatzel
+cherubi
+cherrim
+shellos
+gastrodon
+ambipom
+drifloon
+drifblim
+buneary
+lopunny
+mismagius
+honchkrow
+glameow
+purugly
+chingling
+stunky
+skuntank
+bronzor
+bronzong
+bonsly
+mime-jr
+happiny
+chatot
+spiritomb
+gible
+gabite
+garchomp
+munchlax
+riolu
+lucario
+hippopotas
+hippowdon
+skorupi
+drapion
+croagunk
+toxicroak
+carnivine
+finneon
+lumineon
+mantyke
+snover
+abomasnow
+weavile
+magnezone
+lickilicky
+rhyperior
+tangrowth
+electivire
+magmortar
+togekiss
+yanmega
+leafeon
+glaceon
+gliscor
+mamoswine
+porygon-z
+gallade
+probopass
+dusknoir
+froslass
+rotom
+uxie
+mesprit
+azelf
+dialga
+palkia
+heatran
+regigigas
+giratina-altered
+cresselia
+phione
+manaphy
+darkrai
+shaymin-land
+arceus
+victini
+snivy
+servine
+serperior
+tepig
+pignite
+emboar
+oshawott
+dewott
+samurott
+patrat
+watchog
+lillipup
+herdier
+stoutland
+purrloin
+liepard
+pansage
+simisage
+pansear
+simisear
+panpour
+simipour
+munna
+musharna
+pidove
+tranquill
+unfezant
+blitzle
+zebstrika
+roggenrola
+boldore
+gigalith
+woobat
+swoobat
+drilbur
+excadrill
+audino
+timburr
+gurdurr
+conkeldurr
+tympole
+palpitoad
+seismitoad
+throh
+sawk
+sewaddle
+swadloon
+leavanny
+venipede
+whirlipede
+scolipede
+cottonee
+whimsicott
+petilil
+lilligant
+basculin-red-striped
+sandile
+krokorok
+krookodile
+darumaka
+darmanitan-standard
+maractus
+dwebble
+crustle
+scraggy
+scrafty
+sigilyph
+yamask
+cofagrigus
+tirtouga
+carracosta
+archen
+archeops
+trubbish
+garbodor
+zorua
+zoroark
+minccino
+cinccino
+gothita
+gothorita
+gothitelle
+solosis
+duosion
+reuniclus
+ducklett
+swanna
+vanillite
+vanillish
+vanilluxe
+deerling
+sawsbuck
+emolga
+karrablast
+escavalier
+foongus
+amoonguss
+frillish
+jellicent
+alomomola
+joltik
+galvantula
+ferroseed
+ferrothorn
+klink
+klang
+klinklang
+tynamo
+eelektrik
+eelektross
+elgyem
+beheeyem
+litwick
+lampent
+chandelure
+axew
+fraxure
+haxorus
+cubchoo
+beartic
+cryogonal
+shelmet
+accelgor
+stunfisk
+mienfoo
+mienshao
+druddigon
+golett
+golurk
+pawniard
+bisharp
+bouffalant
+rufflet
+braviary
+vullaby
+mandibuzz
+heatmor
+durant
+deino
+zweilous
+hydreigon
+larvesta
+volcarona
+cobalion
+terrakion
+virizion
+tornadus-incarnate
+thundurus-incarnate
+reshiram
+zekrom
+landorus-incarnate
+kyurem
+keldeo-ordinary
+meloetta-aria
+genesect
+chespin
+quilladin
+chesnaught
+fennekin
+braixen
+delphox
+froakie
+frogadier
+greninja
+bunnelby
+diggersby
+fletchling
+fletchinder
+talonflame
+scatterbug
+spewpa
+vivillon
+litleo
+pyroar
+flabebe
+floette
+florges
+skiddo
+gogoat
+pancham
+pangoro
+furfrou
+espurr
+meowstic-male
+honedge
+doublade
+aegislash-shield
+spritzee
+aromatisse
+swirlix
+slurpuff
+inkay
+malamar
+binacle
+barbaracle
+skrelp
+dragalge
+clauncher
+clawitzer
+helioptile
+heliolisk
+tyrunt
+tyrantrum
+amaura
+aurorus
+sylveon
+hawlucha
+dedenne
+carbink
+goomy
+sliggoo
+goodra
+klefki
+phantump
+trevenant
+pumpkaboo-average
+gourgeist-average
+bergmite
+avalugg
+noibat
+noivern
+xerneas
+yveltal
+zygarde
+diancie
+hoopa
+volcanion
+rowlet
+dartrix
+decidueye
+litten
+torracat
+incineroar
+popplio
+brionne
+primarina
+pikipek
+trumbeak
+toucannon
+yungoos
+gumshoos
+grubbin
+charjabug
+vikavolt
+crabrawler
+crabominable
+oricorio-baile
+cutiefly
+ribombee
+rockruff
+lycanroc-midday
+wishiwashi-solo
+mareanie
+toxapex
+mudbray
+mudsdale
+dewpider
+araquanid
+fomantis
+lurantis
+morelull
+shiinotic
+salandit
+salazzle
+stufful
+bewear
+bounsweet
+steenee
+tsareena
+comfey
+oranguru
+passimian
+wimpod
+golisopod
+sandygast
+palossand
+pyukumuku
+type-null
+silvally
+minior-red-meteor
+komala
+turtonator
+togedemaru
+mimikyu-disguised
+bruxish
+drampa
+dhelmise
+jangmo-o
+hakamo-o
+kommo-o
+tapu koko
+tapu lele
+tapu bulu
+tapu fini
+cosmog
+cosmoem
+solgaleo
+lunala
+nihilego
+buzzwole
+pheromosa
+xurkitree
+celesteela
+kartana
+guzzlord
+necrozma
+magearna
+marshadow
+poipole
+naganadel
+stakataka
+blacephalon
+zeraora
+master ball
+ultra ball
+great ball
+poke ball
+safari ball
+net ball
+dive ball
+nest ball
+repeat ball
+timer ball
+luxury ball
+premier ball
+dusk ball
+heal ball
+quick ball
+cherish ball
+potion
+antidote
+burn heal
+ice heal
+awakening
+paralyze heal
+full restore
+max potion
+hyper potion
+super potion
+full heal
+revive
+max revive
+fresh water
+soda pop
+lemonade
+moomoo milk
+energy powder
+energy root
+heal powder
+revival herb
+ether
+max ether
+elixir
+max elixir
+lava cookie
+berry juice
+sacred ash
+hp up
+protein
+iron
+carbos
+calcium
+rare candy
+pp up
+zinc
+pp max
+old gateau
+guard spec
+dire hit
+x-attack
+x-defense
+x-speed
+x-accuracy
+x-sp-atk
+x-sp-def
+poke doll
+fluffy tail
+blue flute
+yellow flute
+red flute
+black flute
+white flute
+shoal salt
+shoal shell
+red shard
+blue shard
+yellow shard
+green shard
+super repel
+max repel
+escape rope
+repel
+sun stone
+moon stone
+fire stone
+thunder stone
+water stone
+leaf stone
+tiny mushroom
+big mushroom
+pearl
+big pearl
+stardust
+star piece
+nugget
+heart scale
+honey
+growth mulch
+damp mulch
+stable mulch
+gooey mulch
+root fossil
+claw fossil
+helix fossil
+dome fossil
+old amber
+armor fossil
+skull fossil
+rare bone
+shiny stone
+dusk stone
+dawn stone
+oval stone
+odd keystone
+adamant orb
+lustrous orb
+grass mail
+flame mail
+bubble mail
+bloom mail
+tunnel mail
+steel mail
+heart mail
+snow mail
+space mail
+air mail
+mosaic mail
+brick mail
+cheri berry
+chesto berry
+pecha berry
+rawst berry
+aspear berry
+leppa berry
+oran berry
+persim berry
+lum berry
+sitrus berry
+figy berry
+wiki berry
+mago berry
+aguav berry
+iapapa berry
+razz berry
+bluk berry
+nanab berry
+wepear berry
+pinap berry
+pomeg berry
+kelpsy berry
+qualot berry
+hondew berry
+grepa berry
+tamato berry
+cornn berry
+magost berry
+rabuta berry
+nomel berry
+spelon berry
+pamtre berry
+watmel berry
+durin berry
+belue berry
+occa berry
+passho berry
+wacan berry
+rindo berry
+yache berry
+chople berry
+kebia berry
+shuca berry
+coba berry
+payapa berry
+tanga berry
+charti berry
+kasib berry
+haban berry
+colbur berry
+babiri berry
+chilan berry
+liechi berry
+ganlon berry
+salac berry
+petaya berry
+apicot berry
+lansat berry
+starf berry
+enigma berry
+micle berry
+custap berry
+jaboca berry
+rowap berry
+bright powder
+white herb
+macho brace
+exp share
+quick claw
+soothe bell
+mental herb
+choice band
+kings rock
+silver powder
+amulet coin
+cleanse tag
+soul dew
+deep sea tooth
+deep sea scale
+smoke ball
+everstone
+focus band
+lucky egg
+scope lens
+metal coat
+leftovers
+dragon scale
+light ball
+soft sand
+hard stone
+miracle seed
+black glasses
+black belt
+magnet
+mystic water
+sharp beak
+poison barb
+never melt ice
+spell tag
+twisted spoon
+charcoal
+dragon fang
+silk scarf
+up grade
+shell bell
+sea incense
+lax incense
+lucky punch
+metal powder
+thick club
+stick
+red scarf
+blue scarf
+pink scarf
+green scarf
+yellow scarf
+wide lens
+muscle band
+wise glasses
+expert belt
+light clay
+life orb
+power herb
+toxic orb
+flame orb
+quick powder
+focus sash
+zoom lens
+metronome
+iron ball
+lagging tail
+destiny knot
+black sludge
+icy rock
+smooth rock
+heat rock
+damp rock
+grip claw
+choice scarf
+sticky barb
+power bracer
+power belt
+power lens
+power band
+power anklet
+power weight
+shed shell
+big root
+choice specs
+flame plate
+splash plate
+zap plate
+meadow plate
+icicle plate
+fist plate
+toxic plate
+earth plate
+sky plate
+mind plate
+insect plate
+stone plate
+spooky plate
+draco plate
+dread plate
+iron plate
+odd incense
+rock incense
+full incense
+wave incense
+rose incense
+luck incense
+pure incense
+protector
+electirizer
+magmarizer
+dubious disc
+reaper cloth
+razor claw
+razor fang
+tm01
+tm02
+tm03
+tm04
+tm05
+tm06
+tm07
+tm08
+tm09
+tm10
+tm11
+tm12
+tm13
+tm14
+tm15
+tm16
+tm17
+tm18
+tm19
+tm20
+tm21
+tm22
+tm23
+tm24
+tm25
+tm26
+tm27
+tm28
+tm29
+tm30
+tm31
+tm32
+tm33
+tm34
+tm35
+tm36
+tm37
+tm38
+tm39
+tm40
+tm41
+tm42
+tm43
+tm44
+tm45
+tm46
+tm47
+tm48
+tm49
+tm50
+tm51
+tm52
+tm53
+tm54
+tm55
+tm56
+tm57
+tm58
+tm59
+tm60
+tm61
+tm62
+tm63
+tm64
+tm65
+tm66
+tm67
+tm68
+tm69
+tm70
+tm71
+tm72
+tm73
+tm74
+tm75
+tm76
+tm77
+tm78
+tm79
+tm80
+tm81
+tm82
+tm83
+tm84
+tm85
+tm86
+tm87
+tm88
+tm89
+tm90
+tm91
+tm92
+hm01
+hm02
+hm03
+hm04
+hm05
+hm06
+hm07
+hm08
+explorer kit
+loot sack
+rule book
+poke radar
+point card
+journal
+seal case
+fashion case
+seal bag
+pal pad
+works key
+old charm
+galactic key
+red chain
+town map
+vs seeker
+coin case
+old rod
+good rod
+super rod
+sprayduck
+poffin case
+bicycle
+suite key
+oaks letter
+lunar wing
+member card
+azure flute
+ss ticket
+contest pass
+magma stone
+parcel
+coupon 1
+coupon 2
+coupon 3
+storage key
+secret potion
+griseous orb
+vs recorder
+gracidea
+secret key
+apricorn box
+berry pots
+squirt bottle
+lure ball
+level ball
+moon ball
+heavy ball
+fast ball
+friend ball
+love ball
+park ball
+sport ball
+red apricorn
+blue apricorn
+yellow apricorn
+green apricorn
+pink apricorn
+white apricorn
+black apricorn
+dowsing machine
+rage candy bar
+red orb
+blue orb
+jade orb
+enigma stone
+unown report
+blue card
+slowpoke tail
+clear bell
+card key
+basement key
+red scale
+lost item
+pass
+machine part
+silver wing
+rainbow wing
+mystery egg
+gb sounds
+tidal bell
+data card 01
+data card 02
+data card 03
+data card 04
+data card 05
+data card 06
+data card 07
+data card 08
+data card 09
+data card 10
+data card 11
+data card 12
+data card 13
+data card 14
+data card 15
+data card 16
+data card 17
+data card 18
+data card 19
+data card 20
+data card 21
+data card 22
+data card 23
+data card 24
+data card 25
+data card 26
+data card 27
+lock capsule
+photo album
+orange mail
+harbor mail
+glitter mail
+mech mail
+wood mail
+wave mail
+bead mail
+shadow mail
+tropic mail
+dream mail
+fab mail
+retro mail
+mach bike
+acro bike
+wailmer pail
+devon goods
+soot sack
+pokeblock case
+letter
+eon ticket
+scanner
+go goggles
+meteorite
+rm 1 key
+rm 2 key
+rm 4 key
+rm 6 key
+devon scope
+oaks parcel
+poke flute
+bike voucher
+gold teeth
+lift key
+silph scope
+fame checker
+tm case
+berry pouch
+teachy tv
+tri pass
+rainbow pass
+mysticticket
+auroraticket
+powder jar
+ruby
+sapphire
+magma emblem
+old sea map
+douse drive
+shock drive
+burn drive
+chill drive
+sweet heart
+greet mail
+favored mail
+rsvp mail
+thanks mail
+inquiry mail
+like mail
+reply mail
+bridge mail s
+bridge mail d
+bridge mail t
+bridge mail v
+bridge mail m
+prism scale
+eviolite
+float stone
+rocky helmet
+air balloon
+red card
+ring target
+binding band
+absorb bulb
+cell battery
+eject button
+fire gem
+water gem
+electric gem
+grass gem
+ice gem
+fighting gem
+poison gem
+ground gem
+flying gem
+psychic gem
+bug gem
+rock gem
+ghost gem
+dark gem
+steel gem
+health wing
+muscle wing
+resist wing
+genius wing
+clever wing
+swift wing
+pretty wing
+cover fossil
+plume fossil
+liberty pass
+pass orb
+dream ball
+poke toy
+prop case
+dragon skull
+balm mushroom
+big nugget
+pearl string
+comet shard
+relic copper
+relic silver
+relic gold
+relic vase
+relic band
+relic statue
+relic crown
+casteliacone
+ability urge
+item drop
+item urge
+reset urge
+dire hit 3
+light stone
+dark stone
+tm93
+tm94
+tm95
+xtransceiver
+god stone
+gram 1
+gram 2
+gram 3
+blastoisinite
+mewtwonite-x
+mewtwonite-y
+blazikenite
+medichamite
+houndoominite
+aggronite
+banettite
+tyranitarite
+scizorite
+pinsirite
+aerodactylite
+lucarionite
+abomasite
+kangaskhanite
+gyaradosite
+absolite
+charizardite-y
+alakazite
+heracronite
+mawilite
+manectite
+garchompite
+roseli berry
+kee berry
+maranga berry
+discount coupon
+strange souvenir
+lumiose galette
+jaw fossil
+sail fossil
+fairy gem
+adventure rules
+elevator key
+holo caster
+honor of kalos
+intriguing stone
+lens case
+looker ticket
+mega ring
+power plant pass
+profs letter
+roller skates
+sprinklotad
+tmv pass
+tm96
+tm97
+tm98
+tm99
+tm100
+pound
+karate chop
+double slap
+comet punch
+mega punch
+pay day
+fire punch
+ice punch
+thunder punch
+scratch
+vice grip
+guillotine
+razor wind
+swords dance
+cut
+gust
+wing attack
+whirlwind
+fly
+bind
+slam
+vine whip
+stomp
+double kick
+mega kick
+jump kick
+rolling kick
+sand attack
+headbutt
+horn attack
+fury attack
+horn drill
+tackle
+body slam
+wrap
+take down
+thrash
+double-edge
+tail whip
+poison sting
+twineedle
+pin missile
+leer
+bite
+growl
+roar
+sing
+supersonic
+sonic boom
+disable
+acid
+ember
+flamethrower
+mist
+water gun
+hydro pump
+surf
+ice beam
+blizzard
+psybeam
+bubble beam
+aurora beam
+hyper beam
+peck
+drill peck
+submission
+low kick
+counter
+seismic toss
+strength
+absorb
+mega drain
+leech seed
+growth
+razor leaf
+solar beam
+poison powder
+stun spore
+sleep powder
+petal dance
+string shot
+dragon rage
+fire spin
+thunder shock
+thunderbolt
+thunder wave
+thunder
+rock throw
+earthquake
+fissure
+dig
+toxic
+confusion
+psychic
+hypnosis
+meditate
+agility
+quick attack
+rage
+teleport
+night shade
+mimic
+screech
+double team
+recover
+harden
+minimize
+smokescreen
+confuse ray
+withdraw
+defense curl
+barrier
+light screen
+haze
+reflect
+focus energy
+bide
+metronome
+mirror move
+self-destruct
+egg bomb
+lick
+smog
+sludge
+bone club
+fire blast
+waterfall
+clamp
+swift
+skull bash
+spike cannon
+constrict
+amnesia
+kinesis
+soft-boiled
+high jump kick
+glare
+dream eater
+poison gas
+barrage
+leech life
+lovely kiss
+sky attack
+transform
+bubble
+dizzy punch
+spore
+flash
+psywave
+splash
+acid armor
+crabhammer
+explosion
+fury swipes
+bonemerang
+rest
+rock slide
+hyper fang
+sharpen
+conversion
+tri attack
+super fang
+slash
+substitute
+struggle
+sketch
+triple kick
+thief
+spider web
+mind reader
+nightmare
+flame wheel
+snore
+curse
+flail
+conversion 2
+aeroblast
+cotton spore
+reversal
+spite
+powder snow
+protect
+mach punch
+scary face
+feint attack
+sweet kiss
+belly drum
+sludge bomb
+mud-slap
+octazooka
+spikes
+zap cannon
+foresight
+destiny bond
+perish song
+icy wind
+detect
+bone rush
+lock-on
+outrage
+sandstorm
+giga drain
+endure
+charm
+rollout
+false swipe
+swagger
+milk drink
+spark
+fury cutter
+steel wing
+mean look
+attract
+sleep talk
+heal bell
+return
+present
+frustration
+safeguard
+pain split
+sacred fire
+magnitude
+dynamic punch
+megahorn
+dragon breath
+baton pass
+encore
+pursuit
+rapid spin
+sweet scent
+iron tail
+metal claw
+vital throw
+morning sun
+synthesis
+moonlight
+hidden power
+cross chop
+twister
+rain dance
+sunny day
+crunch
+mirror coat
+psych up
+extreme speed
+ancient power
+shadow ball
+future sight
+rock smash
+whirlpool
+beat up
+fake out
+uproar
+stockpile
+spit up
+swallow
+heat wave
+hail
+torment
+flatter
+will-o-wisp
+memento
+facade
+focus punch
+smelling salts
+follow me
+nature power
+charge
+taunt
+helping hand
+trick
+role play
+wish
+assist
+ingrain
+superpower
+magic coat
+recycle
+revenge
+brick break
+yawn
+knock off
+endeavor
+eruption
+skill swap
+imprison
+refresh
+grudge
+snatch
+secret power
+dive
+arm thrust
+camouflage
+tail glow
+luster purge
+mist ball
+feather dance
+teeter dance
+blaze kick
+mud sport
+ice ball
+needle arm
+slack off
+hyper voice
+poison fang
+crush claw
+blast burn
+hydro cannon
+meteor mash
+astonish
+weather ball
+aromatherapy
+fake tears
+air cutter
+overheat
+odor sleuth
+rock tomb
+silver wind
+metal sound
+grass whistle
+tickle
+cosmic power
+water spout
+signal beam
+shadow punch
+extrasensory
+sky uppercut
+sand tomb
+sheer cold
+muddy water
+bullet seed
+aerial ace
+icicle spear
+iron defense
+block
+howl
+dragon claw
+frenzy plant
+bulk up
+bounce
+mud shot
+poison tail
+covet
+volt tackle
+magical leaf
+water sport
+calm mind
+leaf blade
+dragon dance
+rock blast
+shock wave
+water pulse
+doom desire
+psycho boost
+roost
+gravity
+miracle eye
+wake-up slap
+hammer arm
+gyro ball
+healing wish
+brine
+natural gift
+feint
+pluck
+tailwind
+acupressure
+metal burst
+u-turn
+close combat
+payback
+assurance
+embargo
+fling
+psycho shift
+trump card
+heal block
+wring out
+power trick
+gastro acid
+lucky chant
+me first
+copycat
+power swap
+guard swap
+punishment
+last resort
+worry seed
+sucker punch
+toxic spikes
+heart swap
+aqua ring
+magnet rise
+flare blitz
+force palm
+aura sphere
+rock polish
+poison jab
+dark pulse
+night slash
+aqua tail
+seed bomb
+air slash
+x-scissor
+bug buzz
+dragon pulse
+dragon rush
+power gem
+drain punch
+vacuum wave
+focus blast
+energy ball
+brave bird
+earth power
+switcheroo
+giga impact
+nasty plot
+bullet punch
+avalanche
+ice shard
+shadow claw
+thunder fang
+ice fang
+fire fang
+shadow sneak
+mud bomb
+psycho cut
+zen headbutt
+mirror shot
+flash cannon
+rock climb
+defog
+trick room
+draco meteor
+discharge
+lava plume
+leaf storm
+power whip
+rock wrecker
+cross poison
+gunk shot
+iron head
+magnet bomb
+stone edge
+captivate
+stealth rock
+grass knot
+chatter
+judgment
+bug bite
+charge beam
+wood hammer
+aqua jet
+attack order
+defend order
+heal order
+head smash
+double hit
+roar of time
+spacial rend
+lunar dance
+crush grip
+magma storm
+dark void
+seed flare
+ominous wind
+shadow force
+hone claws
+wide guard
+guard split
+power split
+wonder room
+psyshock
+venoshock
+autotomize
+rage powder
+telekinesis
+magic room
+smack down
+storm throw
+flame burst
+sludge wave
+quiver dance
+heavy slam
+synchronoise
+electro ball
+soak
+flame charge
+coil
+low sweep
+acid spray
+foul play
+simple beam
+entrainment
+after you
+round
+echoed voice
+chip away
+clear smog
+stored power
+quick guard
+ally switch
+scald
+shell smash
+heal pulse
+hex
+sky drop
+shift gear
+circle throw
+incinerate
+quash
+acrobatics
+reflect type
+retaliate
+final gambit
+bestow
+inferno
+water pledge
+fire pledge
+grass pledge
+volt switch
+struggle bug
+bulldoze
+frost breath
+dragon tail
+work up
+electroweb
+wild charge
+drill run
+dual chop
+heart stamp
+horn leech
+sacred sword
+razor shell
+heat crash
+leaf tornado
+steamroller
+cotton guard
+night daze
+psystrike
+tail slap
+hurricane
+head charge
+gear grind
+searing shot
+techno blast
+relic song
+secret sword
+glaciate
+bolt strike
+blue flare
+fiery dance
+freeze shock
+ice burn
+snarl
+icicle crash
+v-create
+fusion flare
+fusion bolt
+flying press
+mat block
+belch
+rototiller
+sticky web
+fell stinger
+phantom force
+trick-or-treat
+noble roar
+ion deluge
+parabolic charge
+forests curse
+petal blizzard
+freeze-dry
+disarming voice
+parting shot
+topsy-turvy
+draining kiss
+crafty shield
+flower shield
+grassy terrain
+misty terrain
+electrify
+play rough
+fairy wind
+moonblast
+boomburst
+fairy lock
+kings shield
+play nice
+confide
+diamond storm
+steam eruption
+hyperspace hole
+water shuriken
+mystical fire
+spiky shield
+aromatic mist
+eerie impulse
+venom drench
+powder
+geomancy
+magnetic flux
+happy hour
+electric terrain
+dazzling gleam
+celebrate
+hold hands
+baby-doll eyes
+nuzzle
+hold back
+infestation
+power-up punch
+oblivion wing
+thousand arrows
+thousand waves
+lands wrath
+light of ruin
+origin pulse
+precipice blades
+dragon ascent
+hyperspace fury
+breakneck blitz
+all out pummeling
+supersonic skystrike
+acid downpour
+tectonic rage
+continental crush
+savage spin out
+never ending nightmare
+corkscrew crash
+inferno overdrive
+hydro vortex
+bloom doom
+gigavolt havoc
+shattered psyche
+subzero slammer
+devastating drake
+black hole eclipse
+twinkle tackle
+catastropika
+shore up
+first impression
+baneful bunker
+spirit shackle
+darkest lariat
+sparkling aria
+ice hammer
+floral healing
+high horsepower
+strength sap
+solar blade
+leafage
+spotlight
+toxic thread
+laser focus
+gear up
+throat chop
+pollen puff
+anchor shot
+psychic terrain
+lunge
+fire lash
+power trip
+burn up
+speed swap
+smart strike
+purify
+revelation dance
+core enforcer
+trop kick
+instruct
+beak blast
+clanging scales
+dragon hammer
+brutal swing
+aurora veil
+sinister arrow raid
+malicious moonsault
+oceanic operetta
+guardian of alola
+soul stealing 7 star strike
+stoked sparksurfer
+pulverizing pancake
+extreme evoboost
+genesis supernova
+shell trap
+fleur cannon
+psychic fangs
+stomping tantrum
+shadow bone
+accelerock
+liquidation
+prismatic laser
+spectral thief
+sunsteel strike
+moongeist beam
+tearful look
+zing zap
+natures madness
+multi-attack
+10 000 000 volt thunderbolt
+mind blown
+plasma fists
+photon geyser
+light that burns the sky
+searing sunraze smash
+menacing moonraze maelstrom
+lets snuggle forever
+splintered stormshards
+stench
+drizzle
+speed boost
+battle armor
+sturdy
+damp
+limber
+sand veil
+static
+volt absorb
+water absorb
+oblivious
+cloud nine
+compound eyes
+insomnia
+color change
+immunity
+flash fire
+shield dust
+own tempo
+suction cups
+intimidate
+shadow tag
+rough skin
+wonder guard
+levitate
+effect spore
+synchronize
+clear body
+natural cure
+lightning rod
+serene grace
+swift swim
+chlorophyll
+illuminate
+trace
+huge power
+poison point
+inner focus
+magma armor
+water veil
+magnet pull
+soundproof
+rain dish
+sand stream
+pressure
+thick fat
+early bird
+flame body
+run away
+keen eye
+hyper cutter
+pickup
+truant
+hustle
+cute charm
+plus
+minus
+forecast
+sticky hold
+shed skin
+guts
+marvel scale
+liquid ooze
+overgrow
+blaze
+torrent
+swarm
+rock head
+drought
+arena trap
+vital spirit
+white smoke
+pure power
+shell armor
+air lock
+tangled feet
+motor drive
+rivalry
+steadfast
+snow cloak
+gluttony
+anger point
+unburden
+heatproof
+simple
+dry skin
+download
+iron fist
+poison heal
+adaptability
+skill link
+hydration
+solar power
+quick feet
+normalize
+sniper
+magic guard
+no guard
+stall
+technician
+leaf guard
+klutz
+mold breaker
+super luck
+aftermath
+anticipation
+forewarn
+unaware
+tinted lens
+filter
+slow start
+scrappy
+storm drain
+ice body
+solid rock
+snow warning
+honey gather
+frisk
+reckless
+multitype
+flower gift
+bad dreams
+pickpocket
+sheer force
+contrary
+unnerve
+defiant
+defeatist
+cursed body
+healer
+friend guard
+weak armor
+heavy metal
+light metal
+multiscale
+toxic boost
+flare boost
+harvest
+telepathy
+moody
+overcoat
+poison touch
+regenerator
+big pecks
+sand rush
+wonder skin
+analytic
+illusion
+imposter
+infiltrator
+mummy
+moxie
+justified
+rattled
+magic bounce
+sap sipper
+prankster
+sand force
+iron barbs
+zen mode
+victory star
+turboblaze
+teravolt
+aroma veil
+flower veil
+cheek pouch
+protean
+fur coat
+magician
+bulletproof
+competitive
+strong jaw
+refrigerate
+sweet veil
+stance change
+gale wings
+mega launcher
+grass pelt
+symbiosis
+tough claws
+pixilate
+gooey
+aerilate
+parental bond
+dark aura
+fairy aura
+aura break
+primordial sea
+desolate land
+delta stream
+stamina
+wimp out
+emergency exit
+water compaction
+merciless
+shields down
+stakeout
+water bubble
+steelworker
+berserk
+slush rush
+long reach
+liquid voice
+triage
+galvanize
+surge surfer
+schooling
+disguise
+battle bond
+power construct
+corrosion
+comatose
+queenly majesty
+innards out
+dancer
+battery
+fluffy
+dazzling
+soul-heart
+tangling hair
+receiver
+power of alchemy
+beast boost
+rks system
+electric surge
+psychic surge
+misty surge
+grassy surge
+full metal body
+shadow shield
+prism armor
+it's super effective!
+it's not very effective...
+it doesn't affect
+a critical hit!
+fell
+rose
+attack
+defense
+special attack
+special defense
+speed
+sharply
+badly poisoned
+poisoned
+paralyzed
+burned
