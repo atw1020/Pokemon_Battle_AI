@@ -623,7 +623,7 @@ def choose_random_params(num_params):
     return params
 
 
-def make_model_generator(format, replay_limit=10000):
+def make_model_generator(format, replay_limit=100000):
     '''
 
     creates and trains a model using the training data generator
@@ -736,8 +736,10 @@ def main():
     # print_learning_curves("gen7ou")
     #'''
 
-    # print_learning_curves("gen7ou")
-    '''
+    model = make_model_generator("gen7ou")
+
+    del model
+    #'''
     acc = training_data_generator.get_validation_accuracy("gen7ou")
 
     print(acc)

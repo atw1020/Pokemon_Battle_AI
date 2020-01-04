@@ -42,6 +42,8 @@ def get_recent_replays(tier):
     '''
 
     url = "https://replay.pokemonshowdown.com/search/?format=" + tier + "&recent"
+    
+    print(url)
 
     request = request_multi_page_data(url)
 
