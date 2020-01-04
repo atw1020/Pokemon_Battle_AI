@@ -1,9 +1,22 @@
-from distutils.core import setup, Extension
 
 
-hello_module = Extension('pokereplay', sources=['pokereplay.cpp'])
+# Always prefer setuptools over distutils
+from setuptools import setup, find_packages
+# To use a consistent encoding
+from codecs import open
+from os import path
 
-setup(name='pokereplay',
-      version='0.1.0',
-      description='Hello world module written in C++',
-      ext_modules=[hello_module], requires=['numpy', 'tensorflow', 'scikit-learn'])
+here = path.abspath(path.dirname(__file__))
+
+# Get the long description from the README file
+with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
+setup(
+    name='Pokemon Battling Deep Learning AI',
+    version='1.0.0',
+    description='A Pokemon Battleing AI',
+    long_description="n/a",
+    url='https://github.com/ArthurTGW/Pokemon_Battle_AI',
+    license='Apache-2.0'
+)
