@@ -8,7 +8,7 @@ DeepMind team, I decided to try and build a program that plays Pokemon competiti
 
 The Abilities of Deep Learning are Limited by two main factors: Training Data and Computational power. These two 
 Limitations were the Main Challenges of this project and most of my time went into solving them. In order to get 
-a Large quantity of High Quality Training Data I had to teach myself web-scrapping to collect data from battles 
+a Large quantity of High Quality Training Data I had to teach myself web-scraping to collect data from battles 
 between highly ranked players. Since Computational power is something I don't have a huge abundance of, I built 
 a Python Extension in C++ to handle the Loading of Certain Large files that had a specific format (the C++ code 
 takes 0.007 seconds to load a file whereas my original python code took 0.4 seconds).
