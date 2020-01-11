@@ -414,6 +414,9 @@ def save_replays_binary(tier):
 
     replay_nos = text_file_to_list("replay texts/" + tier + " high ladder replay numbers.txt")
 
+    if not os.path.exists("Binary Replays/"):
+        os.mkdir("Binary Replays/")
+
     replays_already_saved = os.listdir("Binary Replays")
 
     for replay_no in replay_nos:

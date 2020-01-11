@@ -111,7 +111,7 @@ def request_multi_page_data(url):
     driver.get(url)
 
     count = 0
-    max = 100
+    max = 1000
 
     while driver.find_elements_by_name("moreResults") and count < max:
         driver.find_element_by_name("moreResults").click()
@@ -193,8 +193,8 @@ def filter_replay_numbers(tier, threshold):
     for i in range(len(lines)):
 
         try:
-            check_replay_soup(lines[i], tier, threshold, output)
-            j += 1
+            if check_replay_soup(lines[i], tier, threshold, output):
+                j += 1
         except:
             continue
 
@@ -231,6 +231,9 @@ def check_replay_soup(replay_no, tier, threshold, output):
         if int(possible_battle_rating) > threshold:
             # if the replay was above 1700, write the replay back to the replay numbers.txt file
             output.write(replay_no)
+            return True
+
+    return False
 
 
 def check_replay_log(replay_no, tier, threshold, output):
@@ -291,6 +294,7 @@ def scrape_replays(tier):
 
         text = get_replay(replay_number, tier)
         #input_data.append(Parser.parse_replay(text))
+
 
 def main():
 
