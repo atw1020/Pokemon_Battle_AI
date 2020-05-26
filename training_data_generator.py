@@ -836,8 +836,8 @@ def test_model(tier, replay_no, NN, PCA):
 
         t14 += t.time()
 
-        cuda.select_device(0)
-        cuda.close()
+        # cuda.select_device(0)
+        # cuda.close()
 
     #'''
 

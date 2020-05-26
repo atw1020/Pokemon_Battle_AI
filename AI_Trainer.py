@@ -106,7 +106,7 @@ def collect_teams_for_PCA(format):
     return data
 
 
-def init_model(turn_size, choice_size, team_size):
+def init_model(turn_size, choice_size, team_size, layers=10, breadth=64):
     '''
 
     creates a keras model
@@ -117,20 +117,20 @@ def init_model(turn_size, choice_size, team_size):
     :return:
     '''
 
-    turns_layers = 6
-    choice_layers = 6
-    teams_layers = 6
-    end_layers = 6
+    turns_layers = layers
+    choice_layers = layers
+    teams_layers = layers
+    end_layers = 6 * layers
 
-    turns_dense_size = 64
-    choices_dense_size = 64
-    teams_dense_size = 64
-    end_dense_size = 64
+    turns_dense_size = breadth
+    choices_dense_size = breadth
+    teams_dense_size = breadth
+    end_dense_size = breadth
 
-    turns_dropout = 0.2
-    choices_dropout = 0.2
-    teams_dropout = 0.2
-    end_dropout = 0.2
+    turns_dropout = 0.3
+    choices_dropout = 0.3
+    teams_dropout = 0.3
+    end_dropout = 0.3
 
     # make the input layers
 
@@ -623,7 +623,7 @@ def choose_random_params(num_params):
     return params
 
 
-def make_model_generator(format, replay_limit=100000):
+def make_model_generator(format, depth, bredth, epochs, replay_limit=30):
     '''
 
     creates and trains a model using the training data generator
@@ -638,7 +638,7 @@ def make_model_generator(format, replay_limit=100000):
 
     np.random.seed(0)
 
-    rate = 0.001
+    rate = 0.003
     batch_size = 128
 
     keras.backend.clear_session()
@@ -652,12 +652,12 @@ def make_model_generator(format, replay_limit=100000):
     adam_clip = keras.optimizers.Adam(lr=rate)
 
     model = init_model(generator.turns_reduced_dimension, generator.choices_reduced_dimension,
-                       generator.team_reduced_dimension)
+                       generator.team_reduced_dimension, depth, bredth)
 
     model.compile(optimizer=adam_clip, loss="binary_crossentropy", metrics=["acc"])
+    model.summary()
 
-    model.fit_generator(generator, epochs=2, verbose=1, max_queue_size=50, use_multiprocessing=True, workers=1,
-                        callbacks=[cb])
+    model.fit_generator(generator, epochs=epochs, verbose=1, max_queue_size=50, callbacks=[cb])
 
     # print("learning rate:", rate)
     # print("batch size:", batch_size)
@@ -736,10 +736,22 @@ def main():
     # print_learning_curves("gen7ou")
     #'''
 
-    model = make_model_generator("gen7ou")
+    print("Control run")
+    model = make_model_generator("gen7ou", 10, 64, 10)
+
+    print("Increase Depth")
+    model = make_model_generator("gen7ou", 100, 64, 10)
+
+    print("Increase Breadth")
+    model = make_model_generator("gen7ou", 10, 640, 10)
+
+    print("Increase Epochs")
+    model = make_model_generator("gen7ou", 10, 64, 100)
+
+    # model.save("Models/gen7ou.h5")
 
     del model
-    #'''
+    '''
     acc = training_data_generator.get_validation_accuracy("gen7ou")
 
     print(acc)

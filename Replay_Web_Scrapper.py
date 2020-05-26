@@ -51,6 +51,8 @@ def get_recent_replays(tier):
     list_items = soup.find_all("li")
     list_items = list_items[8:-1]
 
+    print(len(list_items))
+
     replay_numbers = []
 
     for list_item in list_items:
@@ -110,18 +112,24 @@ def request_multi_page_data(url):
 
     driver.get(url)
 
+    html = driver.page_source.encode('utf-8')
+
     count = 0
-    max = 1000
+    max = 1
 
     while driver.find_elements_by_name("moreResults") and count < max:
         driver.find_element_by_name("moreResults").click()
-        t.sleep(0.1)
+        t.sleep(0.5)
 
-        print("got results", count)
+        print("clicked more replays", count, "times")
 
         count += 1
 
+    print(len(html))
+
     html = driver.page_source.encode('utf-8')
+
+    print(len(html))
 
     return html
 
@@ -134,10 +142,12 @@ def scrape_replays_and_save(tier):
     :return: None
     '''
 
+    replay_numbers = []
+
     while True:
 
         try:
-            replay_numbers = get_recent_replays(tier)  # + get_replay_numbers_high_ladder(tier)
+            replay_numbers = replay_numbers + get_recent_replays(tier)  # + get_replay_numbers_high_ladder(tier)
             break
         except:
             continue
