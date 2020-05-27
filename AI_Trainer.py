@@ -223,6 +223,9 @@ def get_replay_input_data(path, team_PCA, turns_PCA):
     first_team = np.array([data[0][0]] * len(data[1]))
     second_team = np.array([data[0][1]] * len(data[1]))
 
+    print(first_team.shape)
+    print(team_PCA.components_.shape)
+
     # perform PCA
 
     first_team = team_PCA.transform(first_team)
@@ -340,11 +343,11 @@ def get_matrix_dimensions(format, Max=-1):
     :return: empty numpy matrix containing
     '''
 
-    f = open("PCA_teams.bin", "rb")
+    f = open("PCA files/gen7ou_teams_PCA.bin", "rb")
     PCA_teams = pickle.load(f)
     f.close()
 
-    f = open("PCA_turns.bin", "rb")
+    f = open("PCA files/gen7ou_turns_PCA.bin", "rb")
     PCA_turns = pickle.load(f)
     f.close()
 
@@ -405,31 +408,19 @@ def get_training_data(format):
 
     Max = 1000
 
-    t0 = t.time()
-
     # start by loading the PCA models from their binary files
 
-    f = open("PCA_teams.bin", "rb")
+    f = open("PCA files/gen7ou_teams_PCA.bin", "rb")
     PCA_teams = pickle.load(f)
     f.close()
 
-    f = open("PCA_turns.bin", "rb")
+    f = open("PCA files/gen7ou_turns_PCA.bin", "rb")
     PCA_turns = pickle.load(f)
     f.close()
 
     # initialize all the numpy arrays
 
     turns_data, choices_data, teams_data, winner_data = get_matrix_dimensions("gen7ou", Max)
-
-    t2 = 0
-    t3 = 0
-    t4 = 0
-    t5 = 0
-    t6 = 0
-    t7 = 0
-    t8 = 0
-    t9 = 0
-    t10 = 0
 
     # go through the replays
 
@@ -444,21 +435,15 @@ def get_training_data(format):
 
             print("collecting", file)
 
-            t2 += t.time()
-
             try:
                 new_turns, new_choices, new_teams, new_winner, times = \
                     get_replay_input_data("Binary Replays/" + file, PCA_teams, PCA_turns)
             except TypeError as error:
                 # get replay data will return None if there are no turns in the replay
                 # if this is the case, just continue
-                t3 += t.time()
-                t4 += t.time()
                 continue
 
             size_of_new = len(new_turns)
-
-            t3 += t.time()
 
             # assign the data
 
@@ -466,17 +451,6 @@ def get_training_data(format):
             choices_data[turns_index:turns_index + size_of_new] = new_choices
             teams_data[turns_index:turns_index + size_of_new] = new_teams
             winner_data[turns_index:turns_index + size_of_new] = new_winner
-
-            t4 += t.time()
-
-            (t5_inc, t6_inc, t7_inc, t8_inc, t9_inc, t10_inc) = times
-
-            t5 += t5_inc
-            t6 += t6_inc
-            t7 += t7_inc
-            t8 += t8_inc
-            t9 += t9_inc
-            t10 += t10_inc
 
             # objgraph.show_growth()
 
@@ -487,23 +461,6 @@ def get_training_data(format):
 
     X = [turns_data, choices_data, teams_data]
     y = winner_data
-
-    # print some summaries
-
-    t1 = t.time()
-
-    print("importing data took", t1 - t0)
-
-    print("delay breakdown:")
-    print("formatting took", t3 - t2)
-    print("accumulating took", t4 - t3)
-
-    print("formatting breakdown:")
-    print("loading the data took", t6 - t5)
-    print("formatting the team data took", t7 - t6)
-    print("formatting the choices data took", t8 - t7)
-    print("formatting the turns data took", t9 - t8)
-    print("formatting the winner data took", t10 - t9)
 
     return X, y
 
@@ -604,8 +561,7 @@ def make_model(format):
     model = init_model(turn_size, choices_size, teams_size)
     model.compile(optimizer="adam", loss="binary_crossentropy", metrics=["acc"])
 
-    model.fit_generator(data_generator(X, y, turn_size), steps_per_epoch=total_turns, epochs=1, verbose=1) # ,
-                        # nb_workers=5, max_queue_size=50)
+    model.fit_generator(data_generator(X, y, turn_size), steps_per_epoch=total_turns, epochs=1, verbose=1)
 
     return model
 
@@ -638,8 +594,8 @@ def make_model_generator(format, depth, bredth, epochs, replay_limit=30):
 
     np.random.seed(0)
 
-    rate = 0.003
-    batch_size = 128
+    rate = 1
+    batch_size = 32
 
     keras.backend.clear_session()
 
@@ -647,17 +603,14 @@ def make_model_generator(format, depth, bredth, epochs, replay_limit=30):
 
     # print("learning rate:", rate)
     # print("batch size:", batch_size)
-    # print("hidden layer sizes", hidden_layer_sizes)
-
-    adam_clip = keras.optimizers.Adam(lr=rate)
+    # print("hidden layer sizes", hidden_layer_sizes)222
 
     model = init_model(generator.turns_reduced_dimension, generator.choices_reduced_dimension,
                        generator.team_reduced_dimension, depth, bredth)
 
-    model.compile(optimizer=adam_clip, loss="binary_crossentropy", metrics=["acc"])
-    model.summary()
+    model.compile(optimizer="adam", loss="binary_crossentropy", metrics=["acc"], lr=rate)
 
-    model.fit_generator(generator, epochs=epochs, verbose=1, max_queue_size=50, callbacks=[cb])
+    model.fit_generator(generator, epochs=epochs, verbose=1, callbacks=[cb])
 
     # print("learning rate:", rate)
     # print("batch size:", batch_size)
@@ -736,17 +689,17 @@ def main():
     # print_learning_curves("gen7ou")
     #'''
 
-    print("Control run")
-    model = make_model_generator("gen7ou", 10, 64, 10)
+    # print("Control run")
+    model = make_model("gen7ou")
 
-    print("Increase Depth")
-    model = make_model_generator("gen7ou", 100, 64, 10)
+    # print("Increase Depth")
+    # model = make_model_generator("gen7ou", 30, 64, 10)
 
-    print("Increase Breadth")
-    model = make_model_generator("gen7ou", 10, 640, 10)
+    # print("Increase Breadth")
+    # model = make_model_generator("gen7ou", 10, 256, 10)
 
-    print("Increase Epochs")
-    model = make_model_generator("gen7ou", 10, 64, 100)
+    # print("Increase Epochs")
+    # model = make_model_generator("gen7ou", 10, 64, 100)
 
     # model.save("Models/gen7ou.h5")
 

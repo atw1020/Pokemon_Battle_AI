@@ -63,22 +63,6 @@ class DataGenerator(keras.utils.Sequence):
         self.PCA_prep()
         self.init_batch_sizes()
 
-        self.t0 = 0
-        self.t1 = 0
-        self.t2 = 0
-        self.t3 = 0
-        self.t4 = 0
-        self.t5 = 0
-        self.t6 = 0
-        self.t7 = 0
-        self.t8 = t.time()
-
-        # self.epoch_start_time = t.time()
-
-        print("testing", "t" + str(sleeptimes.index(0)))
-
-        self.lock = threading.Lock()
-
     def on_epoch_end(self):
         '''
 
@@ -113,8 +97,6 @@ class DataGenerator(keras.utils.Sequence):
         :return: batch of data for backprop
         '''
 
-        self.t0 += t.time()
-
         t.sleep(sleeptimes[0])
 
         batch_replays = self.batches[item]
@@ -131,10 +113,6 @@ class DataGenerator(keras.utils.Sequence):
         #    [[0] * self.choices_dimension for i in range(len(batch_replays) * 2)],
         #    [[0] * self.team_dimension for i in range(len(batch_replays) * 2)]
         # ]
-
-        self.t1 += t.time()
-
-        t.sleep(sleeptimes[1])
 
         # and the labels
 
@@ -179,10 +157,6 @@ class DataGenerator(keras.utils.Sequence):
             index += 2
         #'''
 
-        t.sleep(sleeptimes[6])
-
-        self.t6 += t.time()
-
         # batch[0] = np.array(batch[0])
 
         # do PCA
@@ -212,14 +186,6 @@ class DataGenerator(keras.utils.Sequence):
             # player_2_teams = self.PCA_teams.transform(player_2_teams)
             batch[2] = self.PCA_teams.transform(batch[2])
 
-        t.sleep(sleeptimes[7])
-        self.t7 += t.time()
-
-        # self.print_time_summary()
-
-        t.sleep(sleeptimes[8])
-        self.t8 += t.time()
-
         return batch, labels
 
     def print_time_summary(self):
@@ -229,14 +195,6 @@ class DataGenerator(keras.utils.Sequence):
 
         :return: None
         '''
-
-        print("\ntime summary")
-        print("computing gradiants", self.t0 - self.t8)
-        print("initializing data", self.t1 - self.t0)
-        print("importing the data", self.t3 - self.t2)
-        print("formatting the data", self.t4 - self.t3)
-        print("putting data into batches", self.t5 - self.t4)
-        print("PCA", self.t7 - self.t6)
 
         print("epoch took", self.epoch_end_time - self.epoch_start_time)
         print("with", "t" + str(sleeptimes.index(0)), "speed up")
