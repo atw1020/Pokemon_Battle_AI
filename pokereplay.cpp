@@ -6,8 +6,6 @@
 //  Copyright © 2019 arthur wesley. All rights reserved.
 //
 
-using namespace std;
-
 #include <iostream>
 #include <fstream>
 #include <stdint.h>
@@ -45,6 +43,8 @@ const char* second_player_cant_delimiter = "sc"; // second can't
 const char* second_player_ID_delimiter = "si"; // second ID
 
 const char* other_attributes_delimiter = "oa"; // other attributes
+
+using namespace std;
 
 vector<vector<int> > mk_lookup_table(){
     /*
@@ -146,7 +146,7 @@ string get_bytes(string path){
     
     if(not replay_file.is_open()){
         // if the file isn't open tell us and exit the program
-        cout << "error opening file" << endl;
+        std::cout << "error opening file" << endl;
         return NULL;
     }
     
@@ -255,7 +255,7 @@ PyObject* bytes_to_py_list(string Bytes, string delimiter, long int &starting_in
     
     // declare the output pylist for speed
     PyObject* output = PyList_New(size);
-    PyObject* next_item;
+    PyObject* next_item = NULL;
     
     for(long int i = 0; i < (size / 8) + 1; i++){
         
@@ -733,7 +733,7 @@ PyObject* read_replay_file(PyObject *self, PyObject *args){
 
 PyObject *get_version(PyObject *self, PyObject *args){
     // give python the version data
-    cout << version << endl;
+    std::cout << version << endl;
     return Py_None;
 }
 
