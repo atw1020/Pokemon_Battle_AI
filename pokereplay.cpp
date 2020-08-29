@@ -8,12 +8,11 @@
 
 #include <iostream>
 #include <fstream>
-#include <stdint.h>
 #include <vector>
-#include <cstring>
 #include <chrono>
-#include <stdio.h>
 #include <Python.h>
+#include <string>
+#include <filesystem>
 
 
 const char* version = "0.2.0";
@@ -729,6 +728,27 @@ PyObject* read_replay_file(PyObject *self, PyObject *args){
     
     return _read_replay_file(filepath);
     
+}
+
+/**
+ *
+ * a test function to find memory leaks
+ *
+ * @return none (Pacified)
+ */
+namespace fs = std::__fs::filesystem;
+
+int main() {
+    std::string path = "/Binary Replays";
+
+    // go through all the files
+
+    for (const auto & entry : fs::directory_iterator(path)){
+
+    }
+
+    return 0;
+
 }
 
 PyObject *get_version(PyObject *self, PyObject *args){
