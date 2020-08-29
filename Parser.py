@@ -431,7 +431,6 @@ def save_replays_binary(tier):
             print("replay had zero turns")
 
 
-
 def main():
     '''
 
@@ -440,6 +439,7 @@ def main():
     :return: None
     '''
 
+    Replay_Web_Scrapper.scrape_replay_numbers("gen7ou")
     save_replays_binary("gen7ou")
 
 if __name__ == "__main__":

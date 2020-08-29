@@ -152,6 +152,8 @@ string get_bytes(string path){
     // we can now assign the bytes using this fancy code I got off the internet
     bytes.assign((istreambuf_iterator<char>(replay_file)),
                   istreambuf_iterator<char>()           );
+
+    replay_file.close();
     
     return bytes;
 }
@@ -222,7 +224,7 @@ long int count_turns(string &Bytes){
     
 }
 
-PyObject* bytes_to_py_list(string Bytes, string delimiter, long int &starting_index){
+PyObject* bytes_to_py_list(string Bytes, const string delimiter, long int &starting_index){
     /*
      
      takes in a string of bytes and returns a python list where each item in the list corresponds to one bit
@@ -666,8 +668,6 @@ PyObject* _mk_output_file(PyObject *Input_List, string filepath){
         
     }
     
-    
-    
     // write the winner data
     
     if(not Write_PyList_File(output_file, winner_delimiter, Winner_Data)){
@@ -680,11 +680,6 @@ PyObject* _mk_output_file(PyObject *Input_List, string filepath){
     
     return Py_None;
 }
-
-
-
-
-
 
 
 // python interfacing
@@ -728,27 +723,6 @@ PyObject* read_replay_file(PyObject *self, PyObject *args){
     
     return _read_replay_file(filepath);
     
-}
-
-/**
- *
- * a test function to find memory leaks
- *
- * @return none (Pacified)
- */
-namespace fs = std::__fs::filesystem;
-
-int main() {
-    std::string path = "/Binary Replays";
-
-    // go through all the files
-
-    for (const auto & entry : fs::directory_iterator(path)){
-
-    }
-
-    return 0;
-
 }
 
 PyObject *get_version(PyObject *self, PyObject *args){

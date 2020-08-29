@@ -21,6 +21,7 @@ import tracemalloc
 import numpy as np
 import tensorflow as tf
 from tensorflow import keras
+import tensorflow_cloud as tfc
 
 tracemalloc.start()
 
@@ -143,7 +144,6 @@ def init_model(turn_size, choice_size, team_size, layers=10, breadth=64):
     RNN = keras.layers.Dropout(turns_dropout)(RNN)
 
     for i in range(turns_layers - 2):
-
         RNN = tf.compat.v1.keras.layers.SimpleRNN(turns_dense_size, return_sequences=True)(RNN)
         RNN = keras.layers.Dropout(turns_dropout)(RNN)
 
@@ -159,7 +159,6 @@ def init_model(turn_size, choice_size, team_size, layers=10, breadth=64):
     CNN = keras.layers.Dropout(choices_dropout)(CNN)
 
     for i in range(choice_layers - 1):
-
         CNN = keras.layers.Dense(choices_dense_size, activation="relu")(CNN)
         CNN = keras.layers.Dropout(choices_dropout)(CNN)
 
@@ -169,7 +168,6 @@ def init_model(turn_size, choice_size, team_size, layers=10, breadth=64):
     TNN = keras.layers.Dropout(teams_dropout)(TNN)
 
     for i in range(teams_layers - 1):
-
         TNN = keras.layers.Dense(teams_dense_size, activation="relu")(TNN)
         TNN = keras.layers.Dropout(teams_dropout)(TNN)
 
@@ -182,7 +180,6 @@ def init_model(turn_size, choice_size, team_size, layers=10, breadth=64):
     X = keras.layers.Dropout(end_dropout)(X)
 
     for i in range(end_layers - 1):
-
         X = keras.layers.Dense(end_dense_size, activation="relu")(X)
         X = keras.layers.Dropout(end_dropout)(X)
 
@@ -567,7 +564,6 @@ def make_model(format):
 
 
 def choose_random_params(num_params):
-
     params = []
 
     for i in range(num_params):
@@ -643,7 +639,6 @@ def print_learning_curves(tier):
     replay_limits = [100 * 2 ** i for i in range(7)]
 
     for replay_limit in replay_limits:
-
         model = make_model_generator(tier, replay_limit)
         model.save("Models/" + tier + ".h5")
 
@@ -685,23 +680,23 @@ def hyperparameter_search():
 
 def main():
     # training_data_generator.preallocate_training_data("gen7ou")
-    #'''
+    # '''
     # print_learning_curves("gen7ou")
-    #'''
+    # '''
 
     # print("Control run")
-    model = make_model("gen7ou")
+    # model = make_model("gen7ou")
 
     # print("Increase Depth")
     # model = make_model_generator("gen7ou", 30, 64, 10)
 
     # print("Increase Breadth")
-    # model = make_model_generator("gen7ou", 10, 256, 10)
+    model = make_model_generator("gen7ou", 10, 256, 10)
 
     # print("Increase Epochs")
     # model = make_model_generator("gen7ou", 10, 64, 100)
 
-    # model.save("Models/gen7ou.h5")
+    model.save("Models/gen7ou.h5")
 
     del model
     '''

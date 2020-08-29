@@ -27,7 +27,7 @@ i = 0
 for replay_no in replays:
     try:
 
-        replay_text = Replay_Web_Scrapper.get_replay(replay_no, "gen7ou")
+        replay_text = Replay_Web_Scrapper.get_replay(replay_no, "gen7ou", "")
 
         data = Parser.parse_replay(replay_text)
 
@@ -42,11 +42,15 @@ for replay_no in replays:
         if output_data != data:
             print(replay_no, "was not properly saved")
         else:
-            if (i % (len(replays) // 10)) == 0:
-                print(str((i * 100) // len(replays)) + "% complete")
-                #objgraph.show_growth(limit=3)
+            if (i % (200 // 10)) == 0:
+                print(str((i * 100) // 200) + "% complete")
 
         i += 1
+
+        # if we reach 200 replays, break out of the program
+        if i > 200:
+            break;
+
     except LookupError:
         print("tie in replay")
     except AssertionError:

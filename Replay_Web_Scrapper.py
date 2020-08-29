@@ -12,6 +12,7 @@ from selenium import webdriver
 
 import Parser
 
+
 def get_replay(replay_number, tier, server):
     '''
 
@@ -115,15 +116,15 @@ def request_multi_page_data(url):
     html = driver.page_source.encode('utf-8')
 
     count = 0
-    max = 1
+    max = 1000
 
     while driver.find_elements_by_name("moreResults") and count < max:
         driver.find_element_by_name("moreResults").click()
         t.sleep(0.5)
 
-        print("clicked more replays", count, "times")
-
         count += 1
+
+        print("clicked more replays", count, "times")
 
     print(len(html))
 
